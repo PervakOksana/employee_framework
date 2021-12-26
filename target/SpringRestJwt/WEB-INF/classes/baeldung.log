@@ -145,3 +145,98 @@
 2021-12-26 16:20:05,929 INFO c.p.c.EmployeeController [http-nio-8080-exec-330] Trying to put employee = Employee [employeeId=0, firstName=dgfdg, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=Wed Jan 16 00:00:00 MSK 1980] by id 150
 2021-12-26 16:20:05,929 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-330] IN getEmployeeById, id=150
 2021-12-26 16:20:06,040 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-330] Employee loaded successfully, employee details=null with id 150
+2021-12-26 16:26:43,952 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-340] Initializing Servlet 'dispatcher'
+2021-12-26 16:26:46,502 INFO o.h.v.i.u.Version [http-nio-8080-exec-340] HV000001: Hibernate Validator 6.0.10.Final
+2021-12-26 16:26:46,914 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-340] Completed initialization in 2961 ms
+2021-12-26 16:26:52,685 INFO c.p.c.EmployeeController [http-nio-8080-exec-339] Trying to put employee = Employee [employeeId=0, firstName=dgfdg, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=Wed Jan 16 00:00:00 MSK 1980] by id 150
+2021-12-26 16:26:52,685 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-339] IN getEmployeeById, id=150
+2021-12-26 16:26:52,731 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-339] Employee loaded successfully, employee details=null with id 150
+2021-12-26 16:27:00,064 INFO c.p.c.EmployeeController [http-nio-8080-exec-345] Trying to put employee = Employee [employeeId=0, firstName=dgfdg, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=Wed Jan 16 00:00:00 MSK 1980] by id 40
+2021-12-26 16:27:00,064 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-345] IN getEmployeeById, id=40
+2021-12-26 16:27:00,188 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-345] Employee loaded successfully, employee details=Employee [employeeId=40, firstName=UUUU, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=1980-01-16 00:00:00.0] with id 40
+2021-12-26 16:27:00,188 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-345] IN updateEmployee, employee details=Employee [employeeId=40, firstName=dgfdg, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=Wed Jan 16 00:00:00 MSK 1980]
+2021-12-26 16:27:00,205 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-345] Employee updated successfully, employee details=Employee [employeeId=40, firstName=dgfdg, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=Wed Jan 16 00:00:00 MSK 1980]
+2021-12-26 16:28:01,775 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-347] strEmployee : { 
+        "firstName": "dgfdg",
+        "lastName": "new Ivanov",
+        "departmentId": 2,
+        "jobTitle": "dreiver",
+        "gender": "MALE",
+        "dateBirth": "1980-01-16"     
+}
+2021-12-26 16:28:01,782 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-347] firstName : dgfdg
+2021-12-26 16:28:01,782 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-347] lastName : new Ivanov
+2021-12-26 16:28:01,782 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-347] gender : MALE
+2021-12-26 16:28:01,782 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-347] departmentId : 2
+2021-12-26 16:28:01,782 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-347] jobTitle : dreiver
+2021-12-26 16:28:01,782 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-347] dateBirth : 1980-01-16
+2021-12-26 16:28:01,782 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-347] isNull: false
+2021-12-26 16:28:01,782 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-347] counter: 6
+2021-12-26 16:28:01,782 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-347] empl: Employee [employeeId=0, firstName=dgfdg, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=Wed Jan 16 00:00:00 MSK 1980]
+2021-12-26 16:28:01,782 INFO c.p.c.Controller [http-nio-8080-exec-347] Trying to put employee Employee [employeeId=0, firstName=dgfdg, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=Wed Jan 16 00:00:00 MSK 1980]
+2021-12-26 16:28:01,783 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-347] IN getEmployeeById, id=40
+2021-12-26 16:28:01,786 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-347] Employee loaded successfully, employee details=Employee [employeeId=40, firstName=dgfdg, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=1980-01-16 00:00:00.0] with id 40
+2021-12-26 16:28:01,786 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-347] IN updateEmployee, employee details=Employee [employeeId=40, firstName=dgfdg, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=Wed Jan 16 00:00:00 MSK 1980]
+2021-12-26 16:28:01,787 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-347] Employee updated successfully, employee details=Employee [employeeId=40, firstName=dgfdg, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=Wed Jan 16 00:00:00 MSK 1980]
+2021-12-26 16:28:08,516 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-348] strEmployee : { 
+        "firstName": "dgfdg",
+        "lastName": "new Ivanov",
+        "departmentId": 2,
+        "jobTitle": "dreiver",
+        "gender": "MALE",
+        "dateBirth": "1980-01-16"     
+}
+2021-12-26 16:28:08,517 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-348] firstName : dgfdg
+2021-12-26 16:28:08,517 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-348] lastName : new Ivanov
+2021-12-26 16:28:08,517 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-348] gender : MALE
+2021-12-26 16:28:08,517 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-348] departmentId : 2
+2021-12-26 16:28:08,517 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-348] jobTitle : dreiver
+2021-12-26 16:28:08,517 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-348] dateBirth : 1980-01-16
+2021-12-26 16:28:08,517 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-348] isNull: false
+2021-12-26 16:28:08,517 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-348] counter: 6
+2021-12-26 16:28:08,518 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-348] empl: Employee [employeeId=0, firstName=dgfdg, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=Wed Jan 16 00:00:00 MSK 1980]
+2021-12-26 16:28:08,518 INFO c.p.c.Controller [http-nio-8080-exec-348] Trying to put employee Employee [employeeId=0, firstName=dgfdg, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=Wed Jan 16 00:00:00 MSK 1980]
+2021-12-26 16:28:08,518 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-348] IN getEmployeeById, id=100
+2021-12-26 16:28:08,519 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-348] Employee loaded successfully, employee details=null with id 100
+2021-12-26 16:28:08,519 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-348] IN getEmployeeById, id=100
+2021-12-26 16:28:08,520 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-348] Employee loaded successfully, employee details=null with id 100
+2021-12-26 16:28:08,520 ERROR c.p.c.Controller [http-nio-8080-exec-348] Employee with id: 100 is not found
+2021-12-26 16:28:17,683 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-349] strEmployee : { 
+        "firstName": "",
+        "lastName": "new Ivanov",
+        "departmentId": 2,
+        "jobTitle": "dreiver",
+        "gender": "MALE",
+        "dateBirth": "1980-01-16"     
+}
+2021-12-26 16:28:17,683 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-349] firstName : 
+2021-12-26 16:28:17,683 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-349] lastName : new Ivanov
+2021-12-26 16:28:17,683 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-349] gender : MALE
+2021-12-26 16:28:17,683 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-349] departmentId : 2
+2021-12-26 16:28:17,683 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-349] jobTitle : dreiver
+2021-12-26 16:28:17,683 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-349] dateBirth : 1980-01-16
+2021-12-26 16:28:17,683 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-349] isNull: true
+2021-12-26 16:28:17,683 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-349] counter: 6
+2021-12-26 16:28:17,684 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-349] empl: null
+2021-12-26 16:28:17,684 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-349] empl 1
+2021-12-26 16:28:17,684 INFO c.p.s.EmployeeServiceImpl [http-nio-8080-exec-349] empl 2
+2021-12-26 16:28:17,684 INFO c.p.c.Controller [http-nio-8080-exec-349] Trying to put employee null
+2021-12-26 16:28:17,684 ERROR c.p.c.Controller [http-nio-8080-exec-349] Entered data is not correctly: { 
+        "firstName": "",
+        "lastName": "new Ivanov",
+        "departmentId": 2,
+        "jobTitle": "dreiver",
+        "gender": "MALE",
+        "dateBirth": "1980-01-16"     
+}
+2021-12-26 16:28:17,684 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-349] IN getEmployeeById, id=40
+2021-12-26 16:28:17,808 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-349] Employee loaded successfully, employee details=Employee [employeeId=40, firstName=dgfdg, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=1980-01-16 00:00:00.0] with id 40
+2021-12-26 16:28:25,739 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-343] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public void com.pl.controller.EmployeeController.updateEmployee(long,com.pl.dto.Employee,javax.servlet.http.HttpServletResponse): [Field error in object 'employee' on field 'firstName': rejected value []; codes [NotEmpty.employee.firstName,NotEmpty.firstName,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Please provide a first name]] ]
+2021-12-26 16:28:34,156 INFO c.p.c.EmployeeController [http-nio-8080-exec-352] Trying to put employee = Employee [employeeId=0, firstName=rttu, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=Wed Jan 16 00:00:00 MSK 1980] by id 40
+2021-12-26 16:28:34,157 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-352] IN getEmployeeById, id=40
+2021-12-26 16:28:34,284 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-352] Employee loaded successfully, employee details=Employee [employeeId=40, firstName=dgfdg, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=1980-01-16 00:00:00.0] with id 40
+2021-12-26 16:28:34,285 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-352] IN updateEmployee, employee details=Employee [employeeId=40, firstName=rttu, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=Wed Jan 16 00:00:00 MSK 1980]
+2021-12-26 16:28:34,287 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-352] Employee updated successfully, employee details=Employee [employeeId=40, firstName=rttu, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=Wed Jan 16 00:00:00 MSK 1980]
+2021-12-26 16:28:40,337 INFO c.p.c.EmployeeController [http-nio-8080-exec-353] Trying to put employee = Employee [employeeId=0, firstName=rttu, lastName=new Ivanov, departmentId=2, jobTitle=dreiver, gender=MALE, dateBirth=Wed Jan 16 00:00:00 MSK 1980] by id 150
+2021-12-26 16:28:40,338 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-353] IN getEmployeeById, id=150
+2021-12-26 16:28:40,340 INFO c.p.d.EmployeeDaoImpl [http-nio-8080-exec-353] Employee loaded successfully, employee details=null with id 150
